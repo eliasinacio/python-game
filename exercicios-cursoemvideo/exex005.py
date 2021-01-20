@@ -1,1 +1,0 @@
-n1 = int(input( 'Digite um valor. '))

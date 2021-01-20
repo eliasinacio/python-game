@@ -27,7 +27,9 @@ def inicio_sem_musica():
     if v1 != '"':
         print('\033[1;30;107m -=START=- \033[1;30;0m\n'.center(130))
 
-'''
+'''  
+Tentativa de musica tema durante o menu
+
 def inicio_com_musica():
     winsound.PlaySound("game_inicio.wav", winsound.SND_FILENAME+winsound.SND_LOOP+winsound.SND_ASYNC+winsound.SND_NOSTOP)
     print('\033[1;30;107m BEM-VINDO! \033[1;0m'.center(130))
@@ -217,6 +219,13 @@ elif escolha == 3:
     print('           E os outros vão ficar putos.')
 
 
-'''LEMBRAR >> ELE VÊ O QUÊ QUE FAZ ELE FUGIR???? BRIGA COM OS AMIGOS???? ELE SÓ FOGE NÃO BUSCA AJUDA??? UM BARCO??? PODERIA SAIR DE CARRO ANTES./*
-    '''
-''' primeiro ele se preocupa em chamar a policia e entender, depois ele vai atras da namorada'''
+'''LEMBRETES >> 
+    -> O QUE ELE VÊ E FAZ ELE FUGIR (?) 
+        -> ELE BRIGA COM OS AMIGOS (?) 
+    -> ELE SÓ FOGE OU VAI BUSCAR AJUDA (?) 
+'''
+
+'''Caminho da história >>
+    -> Primeiro ele foge/tenta entender o que está acontecendo
+    -> Depois algo relacionado a ele ir atrás da namorada... 
+'''

@@ -1,10 +1,12 @@
+# História já salva, creio que o python já pode ser apagado
+
 # Rascunho_Jogo_
 #FALAS TÊM 3 ESPAÇOS ANTES DO '-' E 4 SE NÃO O TIVER;
 #HISTÓRIA TEM 1 ESPAÇO E SEMPRE EM CAPS;
 #TÍTULOS E DIAS TÊM 3 ESPAÇOS;
 #OPÇÕES TÊM 4 ESPAÇOS.
 
-#import winsound
+#import playsound
 from time import sleep
 
 def ret(a):
@@ -27,9 +29,9 @@ def inicio_sem_musica():
     if v1 != '"':
         print('\033[1;30;107m -=START=- \033[1;30;0m\n'.center(130))
 
-'''  
-Tentativa de musica tema durante o menu
 
+# Tentativa de musica tema durante o menu
+'''
 def inicio_com_musica():
     winsound.PlaySound("game_inicio.wav", winsound.SND_FILENAME+winsound.SND_LOOP+winsound.SND_ASYNC+winsound.SND_NOSTOP)
     print('\033[1;30;107m BEM-VINDO! \033[1;0m'.center(130))
